@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "\"echo \\ \"Error: no test specifified\\\" && exit 1\"",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build:ui": "rm -rf build && cd ../rendering-collections && npm run build --prod && cp -r build ../notesBackEnd"
   },
   "author": "Homer Bacanto",
   "license": "ISC",

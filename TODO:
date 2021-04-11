@@ -1,0 +1,2 @@
+DONE
+toggling the important status of notes returns a 500 error. FIX 
